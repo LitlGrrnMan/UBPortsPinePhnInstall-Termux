@@ -1,6 +1,6 @@
-# PinePhone64 Install Scripts
+# PinePhone64 Install Scripts for use with Termux Android App
 
-Project was started to make it quick and easy to install images on the PinePhone64
+Project was started to make it quick and easy to install images on the PinePhone64.  I started my developing endevors using Termux and I still have way more phones than computers.  So here's my attempt at making this script work with Termux.
 
 # Roadmap
 
@@ -8,12 +8,17 @@ Project was started to make it quick and easy to install images on the PinePhone
  - Add more tools for formating (bmap-tool, dd)
  - Add a list of drives to verify for user and stress asking if it is the correct drive
 
-# Extra
+# Obstacles
 
-If the project expands I would like to add the ability to quickly get a development environment up and running.  I haven't gotten this far yet in my research, but maybe we can quickly deploy a chroot/docker/kvm or something and install the correct versions of SDKs and software.  Will do more research.  May not need this if an easier method already exists.
+ - I'm going to have a hard time finding the directory of the desired device programically or should I say finding the proper syntax
+ - Figureing out how to allow Termux access and write to said device
+ - Deciding which package to use to write img file to device
+ 
+# HELP PLEASE
 
-# Help
+ - This is my first repo so if you have any info, links, advice, or encourgement I'd be very appreciative.
+ - There is so much to learn, this is the only way I know to build my skills.  Find a problem and try like hell to fix it.
+ - Can anyone tell me where to start?
+  
 
-Pull requests welcome if you are so inclined.  
-
-Thanks, Ryein
+Thanks, Daniel William Foxworth
