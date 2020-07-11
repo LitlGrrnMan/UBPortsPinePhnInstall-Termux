@@ -8,9 +8,9 @@ function jumpto
 }
 
 echo "Checking if Bmap Tool & Gzip is installed"
-pkgs='bmap-tools xz-utils dosfstools'
+pkgs='bmap-tools xz-utils wget dosfstools'
 if ! dpkg -s $pkgs >/dev/null 2>&1; then
-  sudo apt-get install $pkgs
+  pkg update && pkg install $pkgs
 else
     echo "Packages found"
     echo ""
